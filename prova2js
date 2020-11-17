@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+  <script>
+      alert('ciao'); //con il ; non dà errori
+      [12, 3].forEach(alert)
+  </script>
+  
+</body>
+
+</html>
