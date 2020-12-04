@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+  <p>Before the script...</p>
+
+  <script>
+    let result = 10 < 15
+    console.log(result)
+
+    console.log('Elisa' > 'Romano')
+
+    console.log('3' > 1)
+
+    let zampe = prompt('Quante zampe ha il ragno? ', '')
+    if (zampe == 8){
+      console.log('Giusto!');
+    } else{
+      console.log('No! Sbagliato');
+    }
+
+    let hour = 14
+    if (hour < 8 || hour > 13){
+      console.log('La scuola è vuota')
+    }
+
+    let hour = 9
+    let minute = 10
+    if (hour == 9 && minute == 10){
+      console.log('Sono le 9:10')
+    }
+
+    let i = 0
+    while (i < 5){
+      console.log(i)
+      i++
+    }
+
+    for (let i = 0; i < 3; i++){
+      console.log(i)
+    }
+    
+    let readName = 'Elisa'
+    function showMessage(){
+      let message = 'Ciao ' + readName
+      console.log(message)
+    }
+    showMessage()
+  </script>
+
+  <p>...After the script.</p>
+
+</body>
+
+</html>
